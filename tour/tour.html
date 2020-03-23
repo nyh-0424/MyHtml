@@ -10,7 +10,7 @@
         background: #f5f5f5 ;
     }
     body{
-        background-color: blueviolet;
+        background-color: white;
         max-width: 640px;
         margin: 0 auto;
         width: 100%;
@@ -31,16 +31,67 @@
     .plcRoutelite{
         margin-left: 5px;
     }
+
+    .pic{
+        border-radius: 50%;
+    }
+
+    .title{
+        /*position: absolute;*/
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        top: 0px;
+        left: 20px;
+        text-decoration: nowrap;
+        line-height: 48px;
+        margin-left: 42px;
+       /*border: 1px solid black;*/
+    }
+
+    .bottom{
+        position: absolute;
+        top: 430px;
+        left: 460px;        
+    }
+
+    .face{
+        float: left;
+        border:1px solid white;
+        border-radius: 50%;
+        width: 39px;
+        height: 39px;
+    }
+
+    .day{
+        position: absolute;
+        top: 120px;
+        right: 480px;
+        border-radius: 50%;
+        color: white;
+        border: 6px solid green;
+    }
 </style>
 
 <body>
     <header class="qui-header">
         <h1>国内旅游计划</h1>
     </header>
+
+
     <section class="plcRoutelite">
         <a href="#">
-             <img src="images/fengjing.jpg" alt=""width="640px">
+             <img src="images/fengjing.jpg" alt=""width="635px">
         </a>
+        <div class="bottom">
+            <p class="face">
+                <img src="images/touxiang.jpg" alt="" width="38" height="38" class="pic">
+            </p>
+            
+            <h2 class="title">我的旅行行程</h2>
+        </div>
+
+        <p class="day">14天</p>
     </section> 
 </body>
 </html>
