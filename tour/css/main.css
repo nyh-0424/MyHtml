@@ -98,17 +98,51 @@ span{
 }
 
 .qui-asider{
-    height: 800px;
+    position: absolute;
+    top:50px;
+    left:242.5px;
+    height: 900px;
     width: 200px;
     border: 1px solid black;
     background-color: #2d3741;
     
+}
+.nav-aside{
+    padding: 80px 10px;
 }
 ul{
     list-style: none;
 }
 .nav-aside a{
     font-size: 16px;
-    color: crimson;
+    color:white;
+    line-height: 44px;
     text-decoration:none ;
+    padding-left: 65px;
+    display: block;
+}
+
+.nav-aside a:hover{
+    color: white;
+    background-color:#2bab79;
+}
+
+.qui-footer{
+   /* border: 1px solid red ;*/
+    line-height: 20px;
+    text-align: center;
+    height: 60px;
+    background-color: rgb(230, 230, 230);
+}
+
+.qui-footer span{
+   /* margin-left: 60px;*/
+}
+
+.qui-footer a{
+    text-decoration: none;
+    line-height: 60px;
+    color:black;
+    margin-left: 10px;
+    font-size: 10px;
 }
